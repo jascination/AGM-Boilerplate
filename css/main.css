@@ -1,0 +1,712 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Franklin Gothic Book';
+  color: #333;
+  background-color: #f9f9f9;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  font-family: 'Franklin Gothic Demi';
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+.title {
+  margin-bottom: 50px;
+}
+.underline {
+  text-decoration: underline;
+}
+/* ==========================================================================
+   Blog Post Styles
+   ========================================================================== */
+.post-content .fancywhiskey {
+  font-family: 'didot';
+  font-weight: 600;
+  font-style: italic;
+  font-size: 56px;
+}
+.post-content .voiceover {
+  color: #646464;
+  font-style: italic;
+}
+.post-content p {
+  margin: 30px 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.form-horizontal .form-group {
+  margin-right: 0;
+  margin-left: 0;
+}
+@font-face {
+  font-family: 'Franklin Gothic Book';
+  src: url('fonts/franklingothicef-book-webfont.eot');
+  src: url('fonts/franklingothicef-book-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/franklingothicef-book-webfont.woff') format('woff'), url('fonts/franklingothicef-book-webfont.ttf') format('truetype'), url('fonts/franklingothicef-book-webfont.svg#franklingothicef-bookregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic Book';
+  src: url('fonts/franklingothicef-bookitalic-webfont.eot');
+  src: url('fonts/franklingothicef-bookitalic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/franklingothicef-bookitalic-webfont.woff') format('woff'), url('fonts/franklingothicef-bookitalic-webfont.ttf') format('truetype'), url('fonts/franklingothicef-bookitalic-webfont.svg#franklingothicef-bookitalicRg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Franklin Gothic Demi';
+  src: url('fonts/franklingothicef-demi-webfont.eot');
+  src: url('fonts/franklingothicef-demi-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/franklingothicef-demi-webfont.woff') format('woff'), url('fonts/franklingothicef-demi-webfont.ttf') format('truetype'), url('fonts/franklingothicef-demi-webfont.svg#franklingothicef-demiregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.huge {
+  font-size: 96px;
+}
+.intro,
+.promo-video,
+.styling-services,
+.featured-in,
+.why-boxes,
+.suggestions {
+  width: 1080px;
+  margin: 0 auto 125px;
+  padding: 50px;
+  background: #fcfcfc;
+  border: 1px solid #efefef;
+  box-shadow: 1px 1px 10px #efefef;
+}
+.intro .form-control,
+.mailing-list .form-control,
+.line-input {
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid #bfbfbf;
+  border-radius: 0;
+  line-height: 2.2em;
+  padding: 0;
+  height: auto;
+  font-size: 1em;
+  font-family: 'Franklin Gothic Book';
+  background-color: #fcfcfc;
+  outline: none;
+}
+.promo-video article h1,
+.gifts article h1,
+.why-boxes article h1 {
+  font-size: 1.8em;
+}
+.gifts {
+  margin-bottom: 85px;
+}
+.intro label {
+  font-size: 1em;
+}
+.intro textarea.form-control {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  line-height: 13px;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 2% auto;
+  padding: 0;
+  resize: none;
+  background-image: -moz-linear-gradient(top, transparent, transparent 49px, #e7eff8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
+  background-image: -webkit-linear-gradient(top, transparent, transparent 27px, #bfbfbf 0);
+  -webkit-background-size: 100% 67px;
+  background-size: 100% 28px;
+  font-family: 'Franklin Gothic Book';
+}
+.intro .intro-left {
+  padding: 0 90px 0 0;
+}
+.intro .intro-right {
+  text-align: right;
+}
+.intro .intro-right p {
+  margin-top: 1em;
+  font-size: 1em;
+  position: absolute;
+  right: 15px;
+}
+.intro .intro-description {
+  max-width: 480px;
+  padding: 45px 55px;
+  text-align: center;
+  margin: 0 auto;
+}
+.intro h2 {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Book';
+}
+.intro h3,
+.intro h4 {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Book';
+}
+.intro h2 {
+  padding: 0 1.6em;
+}
+.intro h3 {
+  padding: 0 2em;
+}
+.intro #feature-img {
+  background-image: url(../img/cool-guy.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 500px;
+}
+.intro .client-img {
+  min-width: 100%;
+}
+.intro .intro-contact button {
+  font-size: 1em;
+}
+.features.ft-top {
+  margin-bottom: 30px;
+}
+.features h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Franklin Gothic demi';
+}
+.features span {
+  height: 71px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.2;
+  transition: all 0.3s ease;
+}
+.features span:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.features .featured1 {
+  background-image: url('../img/featurebanners_1.png');
+}
+.features .featured2 {
+  background-image: url('../img/featurebanners_2.png');
+}
+.features .featured3 {
+  background-image: url('../img/featurebanners_3.png');
+}
+.features .featured4 {
+  background-image: url('../img/featurebanners_4.png');
+}
+.features .featured5 {
+  background-image: url('../img/featurebanners_5.png');
+}
+.features .featured6 {
+  background-image: url('../img/featurebanners_6.png');
+}
+.cred.cred-top {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.cred h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Franklin Gothic demi';
+}
+.cred span {
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.2;
+  transition: all 0.3s ease;
+}
+.cred span:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.cred .cred1 {
+  background-image: url('../img/credbanner_01.png');
+}
+.cred .cred2 {
+  background-image: url('../img/credbanner_02.png');
+}
+.cred .cred3 {
+  background-image: url('../img/credbanner_03.png');
+}
+.cred .cred4 {
+  background-image: url('../img/credbanner_04.png');
+}
+.cred .cred5 {
+  background-image: url('../img/credbanner_05.png');
+}
+.cred .cred6 {
+  background-image: url('../img/credbanner_06.png');
+}
+.cheesypromo {
+  width: 1080px;
+  margin: 0 auto 125px;
+  border: 1px solid #efefef;
+  box-shadow: 1px 1px 10px #efefef;
+}
+.cheesypromo img {
+  max-width: 100%;
+}
+.why-boxes .why-thumbs {
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+.styling-services article:not(:last-child) {
+  margin-bottom: 100px;
+}
+.styling-services .services-title {
+  margin-bottom: 50px;
+}
+.styling-services .services-img {
+  min-width: 100%;
+}
+footer {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+footer li {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+.bottom-arrow {
+  position: relative;
+  border: none;
+}
+.bottom-arrow:after {
+  position: relative;
+  content: url(../img/down-arrow.png);
+  display: block;
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.centered {
+  text-align: center;
+}
+.flat-list {
+  list-style: none;
+}
+.flat-list li {
+  display: inline-block;
+}
+.flat-list li:not(:last-child) {
+  margin-right: 20px;
+}
+.inline-block {
+  display: inline-block;
+}
+.suggestions .imgSmall img {
+  height: 100px;
+}
+.suggestions .suggestion {
+  overflow: hidden;
+  position: relative;
+}
+.suggestions .suggestion .imgInfo {
+  position: absolute;
+  bottom: -100px;
+  background: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.suggestions .suggestion .imgInfo:hover {
+  cursor: pointer;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  
+}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  
+}
+@media (min-width: 768px) {
+  .form-horizontal .control-label {
+    text-align: left;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* ==========================================================================
+   Blog Page
+   ========================================================================== */
+.align-middle:before,
+.align-middle .align-block,
+.align-bottom:before,
+.align-bottom .align-block {
+  display: block;
+  margin-top: 120px;
+}
+.align-middle:before,
+.align-bottom:before {
+  content: none!important;
+  height: 0;
+  margin-right: -0.25em;
+}
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+  
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+       * Don't show links for images, or javascript/internal links
+       */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+.shop-banner {
+  width: 100%;
+  min-height: 350px;
+  background-size: 100%;
+  background-position-y: -150px;
+}
+.shop-banner.shop-with-you {
+  background-image: url('../img/we-shop-with-you.jpg');
+}
+.shop-banner.shop-for-you {
+  margin-top: 50px;
+  background-image: url('../img/we-shop-for-you.jpg');
+}
+.list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.off {
+  text-decoration: line-through;
+  color: red;
+}
+.space {
+  height: 2px;
+  background-color: #75b1ae;
+}
+.money-back {
+  float: left;
+}
+#mainNav {
+  position: fixed;
+  top: -55px;
+  transition: 0.5s ease;
+}
+#mainNav.showNav {
+  top: 0;
+}
+.shadowbox {
+  -webkit-box-shadow: 0 4px 2px -2px rgba(49, 64, 70, 0.2);
+  -moz-box-shadow: 0 4px 2px -2px rgba(49, 64, 70, 0.2);
+  box-shadow: 0 4px 2px -2px rgba(49, 64, 70, 0.2);
+}
+.article-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s linear;
+}
+.article-list .article-title {
+  font-family: 'Franklin Gothic Demi';
+}
+.article-list .article-byline {
+  font-family: 'Franklin Gothic Book';
+  color: #959595;
+}
+.article-list .article-author {
+  font-family: 'Franklin Gothic Book';
+  font-size: 14px;
+  color: #b3b3b3;
+}
+/* ==========================================================================
+    NG ANIMATIONS
+   ========================================================================== */
+.my-repeat-animation.ng-enter,
+.my-repeat-animation.ng-leave,
+.my-repeat-animation.ng-move {
+  position: relative;
+}
+.my-repeat-animation.ng-enter {
+  -webkit-animation: 0.5s repeat-animation-enter;
+  animation: 0.5s repeat-animation-enter;
+}
+.my-repeat-animation.ng-leave {
+  -webkit-animation: 0.5s repeat-animation-leave;
+  animation: 0.5s repeat-animation-leave;
+}
+.my-repeat-animation.ng-move {
+  -webkit-animation: 0.5s repeat-animation-move;
+  animation: 0.5s repeat-animation-move;
+}
+@keyframes repeat-animation-enter {
+  from {
+    left: -10px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes repeat-animation-enter {
+  from {
+    left: -10px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes repeat-animation-leave {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+  to {
+    left: -10px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes repeat-animation-leave {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+  to {
+    left: -10px;
+    opacity: 0;
+  }
+}
+@keyframes repeat-animation-move {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes repeat-animation-move {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* ==========================================================================
+    jvFloat Styles
+   ========================================================================== */
+/*
+ * Default jvFloat theme.
+ * modify it as you wish!
+ */
+.jvFloat {
+  position: relative;
+  display: inline;
+  margin-top: 1em;
+}
+.jvFloat .placeHolder.required {
+  color: red;
+}
+/* Start CSS3 Animations on supported browser */
+.jvFloat .placeHolder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  color: #0c61fc;
+  font-size: .8em;
+  font-weight: bold;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 150ms, opacity 100ms, visibility 100ms;
+  transition: transform 150ms, opacity 100ms, visibility 100ms;
+  opacity: 0;
+  visibility: hidden;
+}
+.jvFloat .placeHolder.active {
+  display: block;
+  visibility: visible;
+  -webkit-transform: translate(0, -1em);
+  -moz-transform: translate(0, -1em);
+  -o-transform: translate(0, -1em);
+  -ms-transform: translate(0, -1em);
+  transform: translate(0, -1em);
+  -webkit-transition: -webkit-transform 100ms, opacity 120ms, visibility 120ms;
+  transition: transform 100ms, opacity 120ms, visibility 120ms;
+  opacity: 1;
+}
+/* End CSS3 */
+/* Legacy browser */
+/*.jvFloat .placeHolder {
+    position: absolute;
+    top: -1em;
+    left: 0;
+    color: #0c61fc;
+    font-size: .85em;
+    font-weight: bold;
+    opacity: 0;
+    visibility: hidden;
+}
+.jvFloat .placeHolder.active {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}*/
+/* End Legacy */
