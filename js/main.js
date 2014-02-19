@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("#main-video").fitVids();
 
     // Auto-resize textareas
-	$('.needText').autoResize();
+	$('textarea').autoResize();
 
     $(window).scroll(function() {
     	var scrollTop = 150;
