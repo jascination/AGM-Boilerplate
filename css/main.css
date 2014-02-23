@@ -517,13 +517,6 @@ footer li {
   background-size: 100%;
   background-position-y: -150px;
 }
-.shop-banner.shop-with-you {
-  background-image: url('../img/we-shop-with-you.jpg');
-}
-.shop-banner.shop-for-you {
-  margin-top: 50px;
-  background-image: url('../img/we-shop-for-you.jpg');
-}
 .list-group-item:first-child {
   border-top-right-radius: 0px;
   border-top-left-radius: 0px;
@@ -710,3 +703,58 @@ footer li {
     opacity: 1;
 }*/
 /* End Legacy */
+
+.too-bright {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('../img/overlay-shadow.png');
+background-repeat: repeat-x;
+background-size: contain;
+z-index: 15;
+}
+
+.shop-text {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: 'Franklin Gothic Demi';
+  font-size: 48px;
+  color: #fff;
+  z-index: 50;
+}
+
+.shop-banner {
+  width: 100%;
+  min-height: 350px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 50px;
+  z-index: 10;
+}
+
+.shop-banner.shop-with-you {
+  background-image: url('../img/we-shop-with-you-2.jpg');
+}
+.shop-banner.shop-for-you {
+  background-image: url('../img/we-shop-for-you-2.jpg');
+}
+
+.mens-style-articles {
+position: relative;
+padding-top: 50px;
+}
+
+.mens-style-articles .bigbackground {
+  position: relative;
+  background: url('../img/mens-fashion-articles-2.jpg') fixed;
+  max-width: 980px;
+  height: 400px;
+  background-size: cover;
+  width: 100%;
+}
